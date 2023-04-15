@@ -1,0 +1,330 @@
+footer {
+    width: 100%;
+    height: auto;
+}
+
+.footer1 {
+    width: 100%;
+    height: 135px;
+}
+
+.footer1 > svg {
+    margin-top: 40px;
+    margin-right: 20px;
+    width: 120px;
+    height: 60px;
+}
+
+.footer1 > a {
+    float: left;
+    text-decoration: none;
+    font-size: 12px;
+    border: 1px solid #e0e0e6;
+    color: #9e9fb1;
+    text-align: center;
+    line-height: 40px;
+    width: 150px;
+    height: 40px;
+    font-family: IranYekanBold;
+    border-radius: 8px;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.footer1 > a > svg {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.footer1 > p {
+    display: inline;
+    font-size: 12px;
+    font-family: IranYekan;
+    margin-right: 20px;
+    color: #645b73;
+    margin-top: 10px;
+}
+
+.footer1 > hr {
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.footer2 {
+    width: 100%;
+    height: 120px;
+    padding-top: 40px;
+    margin-bottom: 60px;
+}
+
+.footer2 > a {
+    margin-right: 180px;
+    text-decoration: none;
+    font-family: IranYekan;
+    color: #3f4969;
+    display: inline-block;
+    text-align: center;
+    font-size: 11px;
+}
+
+.footer3 {
+    width: 100%;
+    height: 285px;
+    padding-right: 20px;
+    font-family: IranYekan;
+}
+
+.footer3 > div {
+    float: right;
+    width: 200px;
+    height: 100%;
+}
+
+.footer3 > div > a {
+    display: block;
+    text-decoration: none;
+    color: #767790;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.footer3 > div > p {
+    display: block;
+    font-family: IranYekanBold;
+}
+
+.footer3 > div > div.socialMedia {
+    width: 100%;
+    height: 35px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.footer3 > div > div.socialMedia > a {
+    display: inline-block;
+    width: 35px;
+    height: 100%;
+    margin-right: 30px;
+}
+
+.footer3 > div > div.socialMedia > a > svg, .footer3 > div > div.socialMedia > a > img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer3 > div > div.socialMedia > a > svg > g {
+    fill: #9e9fb1;
+}
+
+.footer3 > div > div.email {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.footer3 > div > div.email > input {
+    float: right;
+    width: 77%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #f1f2f4;
+    border: unset;
+    font-family: IranYekan;
+    padding-right: 15px;
+    font-size: 15px;
+}
+
+.footer3 > div > div.email > input:valid ~ div.submit {
+    background-color: #ef4056;
+    cursor: pointer;
+}
+
+.footer3 > div > div.email > input:focus {
+    outline: unset;
+}
+
+.footer3 > div > div.email > input::placeholder {
+    color: #9e9fb1;
+}
+
+.footer3 > div > div.email > div.submit {
+    float: left;
+    background-color: #e0e0e6;
+    width: 18%;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 8px;
+}
+
+.footer3 > div > div.email > div.submit > span {
+    color: white;
+}
+
+.footer4 {
+    width: 97%;
+    height: 80px;
+    background-color: #3c4b6d;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 30px auto;
+    line-height: 80px;
+}
+
+.logo {
+    height: 60%;
+    width: 48px;
+    margin-top: 18px;
+    margin-right: 20px;
+    float: right;
+}
+
+.footer4 > div.logo > img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer4 > p {
+    color: white;
+    font-family: IranYekan;
+    font-size: 21px;
+    float: right;
+    margin-right: 20px;
+}
+
+.footer4 > a {
+    background-color: white;
+    width: 10%;
+    height: 54%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.footer4 > a > img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 3px;
+}
+
+.line  {
+    width: 97%;
+    height: 1px;
+    margin: 30px auto 50px auto;
+    background-color: #f1f2f4;
+}
+
+.description {
+    width: 97%;
+    height: 114px;
+    margin: 0px auto;
+}
+
+.description > div.text {
+    width: 71%;
+    height: 100%;
+    float: right;
+    font-family: IranYekan;
+}
+
+.description > div.awards {
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+.description > div.text > p:nth-of-type(1) {
+    font-size: 20px;
+    color: #5a5c7a;
+}
+
+.description > div.text > p:nth-of-type(2) {
+    font-size: 12px;
+    margin-top: 10px;
+    line-height: 30px;
+    color: #767790;
+}
+
+.description > div.awards > a {
+    width: 31%;
+    height: 100%;
+    float: left;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #e0e0e6;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.description > div.awards > a > img {
+    width: 60%;
+    height: 80%;
+}
+
+.copyRight {
+    width: 97%;
+    height: 92px;
+    line-height: 92px;
+    text-align: center;
+    margin: 50px auto 0px auto;
+    border-top: 1px solid #f1f2f4;
+}
+
+.copyRight > p {
+    font-family: IranYekan;
+    color: #767790;
+    font-size: 11px;
+}
+
+.symbols {
+    width: 100%;
+    height: 168px;
+    background-color: #f1f2f4;
+}
+
+.symbols > div.firstRow {
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid #e0e0e6;
+}
+
+.symbols > div.firstRow > a {
+    float: right;
+    height: 100%;
+    width: calc(100% / 8);
+    border-right: 1px solid #e0e0e6;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.symbols > div.secondRow {
+    width: 100%;
+    height: 50%;
+}
+
+.symbols > div.secondRow > a {
+    float: right;
+    height: 100%;
+    width: calc(100% / 9);
+    border-right: 1px solid #e0e0e6;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.symbols > div.firstRow > a > img {
+    width: 50%;
+    height: 50%;
+}
+
+.symbols > div.secondRow > a > img {
+    width: 50%;
+    height: 50%;
+}

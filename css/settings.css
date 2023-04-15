@@ -1,0 +1,27 @@
+@import "./header.css";
+@import "./main.css";
+@import "./footer.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: IranYekan;
+    src: url(../fonts/IRANYekanWeb.eot);
+    src: url(../fonts/IRANYekanWeb.woff2);
+    src: url(../fonts/IRANYekanWeb.woff);
+    src: url(../fonts/IRANYekanWeb.ttf);
+}
+
+@font-face {
+    font-family: IranYekanBold;
+    src: url(../fonts/IRANYekanWeb-Bold.eot);
+    src: url(../fonts/IRANYekanWeb-Bold.ttf);
+    src: url(../fonts/IRANYekanWeb-Bold.woff);
+    src: url(../fonts/IRANYekanWeb-Bold.woff2);
+}
